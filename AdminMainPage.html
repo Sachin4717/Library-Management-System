@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Main Page</title>
+    <link rel="stylesheet" href="MainAdmin.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <aside class="sidebar">
+            <h2 class="logo">ADMIN</h2>
+            <button class="active" onclick="showSection('register')">Register Librarian</button>
+            <button class="active" onclick="showSection('update')">Update Librarian</button>
+            <button class="active" onclick="showSection('delete')">Delete Librarian</button>
+            <button class="active" onclick="showSection('showAll')">Show All Librarian</button>
+            <button class="active" onclick="logout()">Logout</button>
+        </aside>
+        <main class="content" id="main-content">
+            <h3 id="h">Welcome To Library Management System</h3>
+        </main>
+    </div>
+
+    <script src="MainAdmin.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+body {
+    background-image: url('/project/img/WhatsApp\ Image\ 2025-02-06\ at\ 21.40.03_0c2a1991.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    opacity: 0.8;
+}
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: flex;
+    margin-bottom: 5px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #4cae4c;
+    box-shadow: 5px 5px 5px rgb(4, 107, 3);
+}
+#message {
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+}
+h2 {
+    text-align: center;
+}

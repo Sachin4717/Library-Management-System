@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Main Page</title>
+    <link rel="stylesheet" href="MainLibrarian.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h2 class="logo">LIBRARIAN</h2>
+                <button  class="active" onclick="showSection('issubook')">Issue Book</button>
+                <button  class="active" onclick="showSection('submitbook')">Submit Book</button>
+                <button  class="active" onclick="showSection('registerstudent')">Register Student</button>
+                <button  class="active" onclick="showSection('searchstudent')">Search Student</button>
+                <button  class="active" onclick="showSection('studentlist')">Student List</button>
+                <button  class="active" onclick="showSection('addbook')">Add Book</button>
+                <button  class="active" onclick="showSection('updatebook')">Update Book</button>
+                <button  class="active" onclick="showSection('deletebook')">Delete Book</button>
+                <button  class="active" onclick="showSection('showtranscation')">Show Transaction</button>
+                <button  class="active" onclick="showSection('searchbook')">Search Book</button>
+                <button  class="active" onclick="logout()">Logout</button>
+        </aside>
+        <main class="content" id="main-content">
+            
+            <H3 id="h">Welcome to Library Management System</H3>
+
+        </main>
+    </div>
+
+    <script src="MainLibrarian.js"></script>
+    
+</body>
+</html>

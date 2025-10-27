@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/project/img/WhatsApp\ Image\ 2025-02-06\ at\ 21.40.03_0c2a1991.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    z-index: -1;
+}
+#main-div {
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+    background-color: #4b3923;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    border-radius: 20px;
+    padding: 20px;
+    opacity: 0.8;
+}
+#main-div:hover {
+    border: none;
+}
+a {
+    height: 45px;
+    width: 300px;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: #CAE0BC;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a:hover {
+    background-color: darkgreen;
+    border: none;
+    color: white;
+}
